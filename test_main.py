@@ -11,7 +11,7 @@ GDP_data = {
 
 def test_DataShow():
     result = DataShow(GDP_data)
-    assert result["GDP rate"][0] == 2.8
+    assert result.loc[0, "GDP rate"] == 2.8
 
 
 if __name__ == "__main__":
