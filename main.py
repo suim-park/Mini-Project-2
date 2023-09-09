@@ -3,6 +3,7 @@
 import pandas as pd
 
 
-def DataShow(data):
-    df = pd.DataFrame(data)
-    return df
+def GDP(data):
+    GDPfile = pd.read_csv(data)
+    summary = GDPfile.describe()
+    return summary
