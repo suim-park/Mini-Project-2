@@ -6,7 +6,9 @@ from main import GDP
 def test_GDP():
     data_file = "GDP_data.csv"
     result = GDP(data_file)
-    assert GDP.loc[0, "GDP rate"] == 2.8
+
+    max_GDP_rate = max(result.iloc[:, 0])
+    assert max_GDP_rate == 3.1
 
 
 if __name__ == "__main__":
