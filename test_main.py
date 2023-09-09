@@ -12,8 +12,8 @@ GDP_data = {
 def test_GDP():
     result = GDP(GDP_data)
 
-    max_GDP_rate = max(result.iloc[:, 1])
-    assert max_GDP_rate == 3.1
+    max_value = max(DataShow(GDP_data)["GDP rate"])
+    assert max_value == 3.1
 
 
 if __name__ == "__main__":
