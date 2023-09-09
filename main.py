@@ -1,19 +1,10 @@
-"""
-Main cli or app entry point
-"""
+import pandas as pd
 
-from mylib.calculator import add
-import click
+data = {
+    "year": [2021, 2022, 2023],
+    "GDP rate": [2.8, 3.1, 3.0],
+    "GDP": ["1.637M", "1.73M", "1.83M"],
+}
 
-#var=1;var=2
-
-@click.command("add")
-@click.argument("a", type=int)
-@click.argument("b", type=int)
-def add_cli(a, b):
-    click.echo(add(a, b))
-
-
-if __name__ == "__main__":
-    # pylint: disable=no-value-for-parameter
-    add_cli()
+df = pd.DataFrame(data)
+print(df)
