@@ -12,7 +12,7 @@ GDP_data = {
 def test_GDP():
     result = GDP(GDP_data)
 
-    max_value = max(DataShow(GDP_data)["GDP rate"])
+    max_value = max(GDP(GDP_data)["GDP rate"])
     assert max_value == 3.1
 
 
