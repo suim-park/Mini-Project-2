@@ -12,7 +12,7 @@ The files included in the second mini project are as follows:
 
 * `README.md`: Shows what content was added and tested in Mini Project 2.
 
-* `requirements.txt`: Added the Pandas package with specific version, which is 2.1.0.
+* `requirements.txt`: Added the pandas package with specific version, which is 2.1.0.
 
 * `githubactions`: Tested the code created using pandas to ensure that Git Actions runs properly.
 
