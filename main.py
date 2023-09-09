@@ -4,5 +4,4 @@ import pandas as pd
 
 
 def GDP(data):
-    summary = GDP.describe()
-    return summary
+    return
