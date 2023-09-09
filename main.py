@@ -5,5 +5,5 @@ import pandas as pd
 
 def DataShow(data):
     df = pd.DataFrame(data)
-    print
+    print(df)
     return True

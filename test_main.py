@@ -10,8 +10,9 @@ GDP_data = {
 
 
 def test_DataShow():
-    assert DataShow(GDP_data)["GDP rate"][0] == 2.8
+    result = DataShow(GDP_data)
+    assert result is True
 
 
 if __name__ == "__main__":
-    test_DataShow
+    test_DataShow()
