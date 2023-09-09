@@ -1,10 +1,6 @@
-"""
-Test goes here
+# Test main.py
 
-"""
+from main import df
 
-from mylib.calculator import add
-
-
-def test_add():
-    assert add(1, 2) == 3
+if df["GDP rate"][1] == 2.8:
+    assert True
