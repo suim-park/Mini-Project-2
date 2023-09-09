@@ -4,4 +4,5 @@ import pandas as pd
 
 
 def GDP(data):
-    return
+    GDP_df = pd.DataFrame(data)
+    return GDP_df
