@@ -17,7 +17,7 @@ lint:
 container-lint:
 	docker run --rm -i hadolint/hadolint < Dockerfile
 
-refactor: format lint
+refactor: # format lint
 
 deploy:
 	#deploy goes here
