@@ -4,6 +4,5 @@ import pandas as pd
 
 
 def GDP(data):
-    GDPfile = pd.read_csv(data, dtype={"GDP rate": float})
-    summary = GDPfile.describe()
+    summary = GDP.describe()
     return summary
